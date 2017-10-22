@@ -6,7 +6,10 @@ let lazy = lazyload();
     $("img.lazyload").lazyload();
 
 
-
+    $(".04").click(function(){
+        // $(this).slideToggle()
+        $(".content-04").toggle();
+    });
 
     $(".03").click(function(){
         // $(this).slideToggle()
