@@ -60,13 +60,15 @@ a:hover{
 
 
 img{
-    width: 30%;
+    width: 27%;
     height: auto;
     display: inline;
     vertical-align: middle;
 
-    margin: 0 auto;
-    padding: 1%;
+/*    margin: 0 auto;
+*/    margin: 3%;
+
+    box-shadow: 1px 1px 7px 2px #dcdcdc;
 
 }
 
