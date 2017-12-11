@@ -1,15 +1,10 @@
 $(document).ready(function(){
 
-    
+
 let lazy = lazyload();
 
     $("img.lazyload").lazyload();
 
-
-
-    $(".05").click(function(){
-        $(".content-05").toggle();
-    });
 
     $(".04").click(function(){
         $(".content-04").toggle();
@@ -28,9 +23,3 @@ let lazy = lazyload();
     });
 
 });
-
-
-
-
-
-
